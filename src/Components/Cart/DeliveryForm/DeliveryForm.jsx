@@ -57,7 +57,7 @@ const DeliveryForm = () => {
                                 {...register('full_name', {
                                     required: 'Name is required',
                                 })}
-                                defaultValue={'John Doe'}
+                                // defaultValue={'John Doe'}
                                 label='Full Name'
                                 size='small'
                                 error={errors.email ? true : false}
@@ -76,7 +76,7 @@ const DeliveryForm = () => {
                                         message: 'Invalid email address'
                                     }
                                 })}
-                                defaultValue={'john@gmail.com'}
+                                // defaultValue={'john@gmail.com'}
                                 label='Email'
                                 size='small'
                                 error={errors.email ? true : false}
@@ -90,7 +90,7 @@ const DeliveryForm = () => {
                                 {...register('address', {
                                     required: 'Address is required',
                                 })}
-                                defaultValue={'456 Street, fake town, New York'}
+                                // defaultValue={'456 Street, fake town, New York'}
                                 label='Address'
                                 size='small'
                                 error={errors.address ? true : false}
